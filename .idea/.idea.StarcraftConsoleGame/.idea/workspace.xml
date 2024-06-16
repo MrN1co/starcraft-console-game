@@ -7,26 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0ecf4d2-e5a8-4fb6-be3d-5f5188dd70e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.StarcraftConsoleGame/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.StarcraftConsoleGame/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.StarcraftConsoleGame/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StarcraftConsoleGame/BattleManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StarcraftConsoleGame/Enemies/Enemy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StarcraftConsoleGame/Enemies/Hydralisk.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StarcraftConsoleGame/Enemies/Ultralisk.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StarcraftConsoleGame/Enemies/Zerg.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StarcraftConsoleGame/Enemies/Zergling.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StarcraftConsoleGame/Entity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StarcraftConsoleGame/GameManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StarcraftConsoleGame/Inventory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StarcraftConsoleGame/Map.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StarcraftConsoleGame/Player.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StarcraftConsoleGame/StateManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StarcraftConsoleGame/Writer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StarcraftConsoleGame/Zeratul.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StarcraftConsoleGame/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StarcraftConsoleGame/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="e0ecf4d2-e5a8-4fb6-be3d-5f5188dd70e6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,7 +119,7 @@
       <workItem from="1718017580005" duration="8138000" />
       <workItem from="1718104850329" duration="10678000" />
       <workItem from="1718280912856" duration="15367000" />
-      <workItem from="1718532950840" duration="4236000" />
+      <workItem from="1718532950840" duration="4540000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit fix">
       <option name="closed" value="true" />
