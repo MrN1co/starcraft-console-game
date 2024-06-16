@@ -27,28 +27,23 @@ public class Ultralisk : Zerg
         {
             throw new NullReferenceException();
         }
+        
+        if(CurrentHealth < MaxHealth * 0.25)
+        {
+            TissueAssimilation();
+            return;
+        }
+        
         var random = new Random();
         var action = random.Next(2);
         if (CurrentHealth < MaxHealth * 0.50 && player is Zeratul && action == 0)
         {
-            Writer.SlowWrite($"{Name} used Shield Break on {player.Name}!", 50);
             ShieldBreak(player);
             return;
         }
         
-        //Randomly choose an action
-        action = random.Next(100);
-        switch (action)
-        {
-            case <25:
-                Writer.SlowWrite($"{Name} uses Tissue Assimilation!", 50);
-                TissueAssimilation();
-                break;
-            default:
-                Writer.SlowWrite($"{Name} attacks {player.Name}!", 50);
-                BasicAttack(player);
-                break;
-        }
+        Writer.SlowWrite($"{Name} attacks {player.Name}!", 50);
+        BasicAttack(player);
     }
 
     protected override void BasicAttack(Entity target)
@@ -59,6 +54,7 @@ public class Ultralisk : Zerg
 
     private void TissueAssimilation()
     {
+        Writer.SlowWrite($"{Name} uses Tissue Assimilation!", 50);
         if(_storedDamage > MaxHealth - CurrentHealth)
             _storedDamage = MaxHealth - CurrentHealth;
         Writer.SlowWrite($"{Name} healed for {_storedDamage} health", 50);
@@ -66,8 +62,9 @@ public class Ultralisk : Zerg
         _storedDamage = 0;
     }
     
-    private static void ShieldBreak(Player target)
+    private void ShieldBreak(Player target)
     {
+        Writer.SlowWrite($"{Name} used Shield Break on {target.Name}!", 50);
         if (target is Zeratul zeratul)
             zeratul.TakeDamage(zeratul.Shield);
         else

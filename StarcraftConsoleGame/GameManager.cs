@@ -7,7 +7,7 @@ public static class GameManager
     
     // ReSharper disable once InconsistentNaming
     public static readonly Player ActivePlayer = new Zeratul();
-    public static readonly Map ActiveMap = new Map(5, "Aiur");
+    public static readonly Map ActiveMap = new Map(10, "Aiur");
     
     
     public static void NewGame()
